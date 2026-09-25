@@ -218,3 +218,9 @@ function checkout() {
     updateCartUI();
     toggleCart();
 }
+function toggleMobileMenu() {
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileMenu) {
+        mobileMenu.classList.toggle('translate-x-full');
+    }
+}
